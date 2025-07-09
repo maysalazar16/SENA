@@ -1,7 +1,14 @@
-# esto sosn condicionales 
+# 1. Verifica si un número es positivo, negativo o cero.
 
-#cometarios 
+numero1 = float(input("ingrese un numero: "))
 
-
-
-v = 23
+if numero1 > 0:
+    print(f"positivo porque es {numero1}")
+elif numero1 < 0 :
+    print(f"es negativo porque ese {numero1}")
+else:
+    print(f"es cero {numero1} ")
+    
+# 2. Calcula el mayor de dos números ingresados._
+    
+    
