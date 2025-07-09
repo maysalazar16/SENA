@@ -11,4 +11,8 @@ else:
     
 # 2. Calcula el mayor de dos números ingresados._
     
-    
+num1 = int(input("ingresar un numero"))
+num2 = int(input("ingresar un numero"))
+
+if num1 > num2:
+    print("es mayor ")
